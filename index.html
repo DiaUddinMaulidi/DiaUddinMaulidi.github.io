@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <!-- navbar awal -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Kopi<span>Senja</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- section awal -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Disini jual kopi buat <span>sendiri</span></h1>
+            <p>"seperti kopi pekat yang membangunkan, dan senja datang dengan ketenangan"</p>
+            <a href="#" class="cta">Beli Sekarang</a>
+        </main>
+    </section>
+    <!-- section akhir -->
+
+    <!-- about / tentang kami awal -->
+    <section class="about" id="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="/belajar_html/img/ngopi_2.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa memilih kopi kami??</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tempora optio cum, esse quisquam perferendis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ut in et iure ipsa id minima praesentium non aut. Voluptates.</p>
+            </div>
+        </div>
+    </section>
+    <!-- about / tentang kami akhir -->
+
+    <!-- menu awal -->
+    <section class="menu" id="menu">
+        <h2>Menu <span>Kami</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum debitis dolores sunt maxime.</p>
+        
+        <!-- https://source.unsplash.com/300x300/?espresso foto khusus kopi-->
+        <div class="row">
+            <div class="menu-card">
+                <img src="/belajar_html/img/ngopi_3.jpg" alt="Espresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Espresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="/belajar_html/img/esspresso.jpeg" alt="Americano" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Americano -</h3>
+                <p class="menu-card-price">IDR 20K</p>
+            </div>
+            <div class="menu-card">
+                <img src="/belajar_html/img/coffee_1.jpeg" alt="Caffe-Latte" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Caffe Latte -</h3>
+                <p class="menu-card-price">IDR 25K</p>
+            </div>
+            <div class="menu-card">
+                <img src="/belajar_html/img/Macchiato.jpeg" alt="Macchiato" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Macchiato -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="/belajar_html/img/Affogato.jpeg" alt="Affogato" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Affogato -</h3>
+                <p class="menu-card-price">IDR 10K</p>
+            </div>
+        </div>
+    </section>
+    <!-- menu akhir -->
+
+    <!-- contact awal -->
+    <section class="contact" id="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur esse voluptates!</p>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.491468896782!2d116.52198497363368!3d-8.644718591402071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc4eafc18a6227%3A0x54525d33a0043ca7!2sPancor%20Bermi%20RT%2030!5e0!3m2!1sid!2sid!4v1692963296173!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            
+            <form action="">
+                <div class="input-grup">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="mail"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="No Hp">
+                </div>
+                <button type="submit" class="btn">Kirim pesan</button>
+            </form>
+        </div>
+    </section>
+    <!-- contact akhir -->
+
+    <!-- footer awal -->
+    <footer>
+        <div class="cocials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+        </div>
+
+        <div class="credits">
+            <p>Created By <a href="">Dia'UddinMaulidi</a>. | &copy; 2023</p>
+        </div>
+    </footer>
+    <!-- footer akhir -->
+
+<script>
+    feather.replace();
+</script>
+
+<script src="index.js"></script>
+</body>
+</html>
